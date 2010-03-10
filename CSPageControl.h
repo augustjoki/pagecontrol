@@ -2,7 +2,7 @@
 //  CSPageControl.h
 //  CSPageControl
 //
-//  Created by August Joki on 03/09/09.
+//  Created by August Joki on 3/9/10.
 //  Copyright 2010 Concinnous Software. All rights reserved.
 //
 
@@ -12,6 +12,7 @@
 @interface CSPageControl : UIPageControl {
   NSMutableArray *dots;
   UIImageView *activeDot;
+  NSInteger cachedPage;
   
   UIImage *active, *inactive;
 }
