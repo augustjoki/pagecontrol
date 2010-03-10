@@ -1,0 +1,7 @@
+CSPageControl
+
+Like a normal UIPageControl but with the ability to set an active and inactive image.
+
+Known limitations:
+- Images are expected to be 16px wide.
+- Default dots will show through unless custom images completely cover them.
